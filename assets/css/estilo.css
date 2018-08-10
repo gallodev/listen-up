@@ -1,0 +1,82 @@
+.default-font {
+  font-family: Lucida Console;
+  letter-spacing: 2px;
+}
+
+.light-background {
+  background: #343A3F;
+}
+
+input[type=file] {
+  display: none;
+}
+
+.center {
+  margin: 0 auto !important;
+  float: left;
+  width: 100%;
+}
+
+body {
+  background: #202021;
+  color: #FFF;
+}
+body #section-categories, body #section-music {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+body .project-name {
+  font-family: Courier New;
+}
+body .separator {
+  border-bottom: 2px solid #FFF;
+  width: 100%;
+  float: left;
+}
+body .box-music {
+  background: #343A3F;
+  box-sizing: border-box;
+  padding: 80px;
+  margin-bottom: 50px;
+}
+body .custom-file-upload {
+  border: 1px solid #FFF;
+  display: inline-block;
+  padding: 6px 12px;
+  background: #008843;
+  cursor: pointer;
+}
+body .listen-sound {
+  width: 400px;
+  cursor: pointer;
+}
+body .listen-sound:hover {
+  font-size: 14px;
+}
+body footer {
+  height: 80px;
+  width: 100%;
+  background: #343A3F;
+  float: left;
+}
+body footer audio {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(33.33%);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-33.33%);
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+
+/*# sourceMappingURL=estilo.css.map */

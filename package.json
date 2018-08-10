@@ -1,0 +1,26 @@
+{
+  "name": "listenup",
+  "version": "1.0.0",
+  "description": "What is CodeIgniter ###################",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Gallo",
+  "license": "ISC",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "listenup",
+    "radio",
+    "player",
+    "de",
+    "musica"
+  ]
+}

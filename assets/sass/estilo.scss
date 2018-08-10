@@ -1,0 +1,94 @@
+$bg_color: #202021;
+$default_font: arial;
+$font_color:#FFF;
+$light_color: #343A3F;
+
+.default-font{
+  font-family: Lucida Console;
+  letter-spacing: 2px;
+}
+
+.light-background{
+  background: $light_color;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.center{
+  margin: 0 auto !important;
+  float: left;
+  width: 100%;
+}
+
+body{
+    background: $bg_color;
+    color:$font-color;
+
+    #section-categories,#section-music{
+        margin-top: 50px; 
+        margin-bottom: 30px;    
+    }    
+    .project-name{
+        font-family: Courier New;                
+    }
+
+    .separator{
+      border-bottom: 2px solid $font_color;
+      width: 100%;
+      float: left;
+    }
+    
+    .box-music{
+      background: $light_color;
+      box-sizing: border-box;
+      padding: 80px;
+      margin-bottom: 50px;
+    }
+
+    .custom-file-upload {
+      border: 1px solid #FFF;
+      display: inline-block;
+      padding: 6px 12px;
+      background: #008843;
+      cursor: pointer;
+    }
+    .listen-sound{
+      width: 400px;
+      cursor: pointer;
+      &:hover{
+        font-size: 14px;
+      }
+    }
+    footer{
+      height:80px;
+      width: 100%;
+      background:$light_color;
+      float: left;
+      audio{
+        width: 100%;
+        margin-top: 15px;
+      }
+
+    }
+   
+}
+
+
+
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(33.33%);
+}
+
+.carousel-inner .carousel-item-left.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-33.33%)
+}
+  
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
